@@ -118,16 +118,16 @@ export default function Home() {
       </section>
 
       {/* 2. БЛОК "О КОМПАНИИ" */}
-      <section className="w-full max-w-7xl mx-auto px-6 md:px-20 py-24 flex flex-col lg:flex-row gap-16 items-center">
+      <section className="w-full max-w-7xl mx-auto px-6 lg:px-20 py-10 lg:py-24 flex flex-col lg:flex-row gap-6 lg:gap-16 items-center">
         <div className="flex-1">
           <h3 className="text-[#e66c24] text-sm font-black uppercase tracking-[0.3em] mb-4">
             Надежный партнер
           </h3>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-[#1f2937] mb-10 leading-tight">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-[#1f2937] mb-6 lg:mb-10 leading-tight">
             TOO Supplier Atyrau
           </h2>
 
-          <ul className="space-y-6 mb-12">
+          <ul className="space-y-4 lg:space-y-6 mb-8 lg:mb-12">
             {[
               "Поставка промышленного оборудования",
               "Поставка абразивных материалов",
@@ -135,45 +135,45 @@ export default function Home() {
             ].map((text, i) => (
               <li
                 key={i}
-                className="flex items-center gap-5 text-xl text-gray-700 font-medium"
+                className="flex items-center gap-4 text-lg lg:text-xl text-gray-700 font-medium"
               >
-                <span className="flex-shrink-0 w-3 h-3 bg-[#e66c24] rounded-full shadow-[0_0_10px_#e66c24]"></span>
+                <span className="flex-shrink-0 w-2 h-2 lg:w-3 lg:h-3 bg-[#e66c24] rounded-full"></span>
                 {text}
               </li>
             ))}
           </ul>
 
-          <div className="flex flex-wrap items-center gap-6">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
             <Link
               href="/about"
-              className="bg-gray-900 hover:bg-[#e66c24] transition-all duration-300 text-white py-5 px-12 rounded-2xl font-bold text-lg shadow-xl inline-block text-center"
+              className="w-full sm:w-auto bg-gray-900 hover:bg-[#e66c24] transition-all duration-300 text-white py-4 lg:py-5 px-10 lg:px-12 rounded-2xl font-bold text-lg shadow-xl text-center"
             >
               Узнать больше
             </Link>
 
-            {/* Иконки преимуществ */}
-            <div className="flex gap-4 p-2 bg-gray-50 rounded-2xl border border-gray-100">
-              <div className="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center min-w-[100px]">
+            {/* Иконки преимуществ (на мобилках сделаем их чуть компактнее) */}
+            <div className="flex gap-3 p-1 bg-gray-50 rounded-2xl border border-gray-100">
+              <div className="bg-white p-3 lg:p-4 rounded-xl shadow-sm flex flex-col items-center min-w-[80px] lg:min-w-[100px]">
                 <Image
                   src="/images/icon-reliable.svg"
                   alt="Надежно"
-                  width={32}
-                  height={32}
-                  className="mb-2"
+                  width={24}
+                  height={24}
+                  className="mb-1 lg:mb-2"
                 />
-                <span className="text-[10px] font-black text-gray-400 uppercase tracking-widest">
+                <span className="text-[9px] font-black text-gray-400 uppercase">
                   Надежно
                 </span>
               </div>
-              <div className="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center min-w-[100px]">
+              <div className="bg-white p-3 lg:p-4 rounded-xl shadow-sm flex flex-col items-center min-w-[80px] lg:min-w-[100px]">
                 <Image
                   src="/images/icon-quality.svg"
                   alt="Качественно"
-                  width={32}
-                  height={32}
-                  className="mb-2"
+                  width={24}
+                  height={24}
+                  className="mb-1 lg:mb-2"
                 />
-                <span className="text-[10px] font-black text-gray-400 uppercase tracking-widest">
+                <span className="text-[9px] font-black text-gray-400 uppercase">
                   Качество
                 </span>
               </div>
@@ -181,15 +181,12 @@ export default function Home() {
           </div>
         </div>
 
-        {/* ЛОГОТИП БЕЗ КВАДРАТА */}
-        <div className="flex-1 w-full flex justify-center items-center">
-          <div className="relative group w-full max-w-[500px]">
-            {/* Легкое свечение сзади при наведении (опционально) */}
-            <div className="absolute inset-0 bg-[#e66c24]/5 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-
+        {/* ЛОГОТИП — убираем лишнее место на мобилках */}
+        <div className="flex-1 w-full flex justify-center items-center mt-4 lg:mt-0">
+          <div className="relative group w-full max-w-[280px] lg:max-w-[500px]">
             <div className="relative transition-transform duration-500 group-hover:scale-105">
               <Image
-                src="/images/about-bg.png"
+                src="/images/about-bg2.png"
                 alt="Логотип Supplier Atyrau"
                 width={500}
                 height={500}
