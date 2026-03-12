@@ -186,7 +186,7 @@ export default function Home() {
           <div className="relative group w-full max-w-[280px] lg:max-w-[500px]">
             <div className="relative transition-transform duration-500 group-hover:scale-105">
               <Image
-                src="/images/about-bg2.png"
+                src="/images/about-bg.png"
                 alt="Логотип Supplier Atyrau"
                 width={500}
                 height={500}
