@@ -9,7 +9,7 @@ export default function AbrasivesPage() {
       <header className="w-full bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 md:px-20 py-5 flex items-center justify-between">
           <div className="font-black text-2xl tracking-tighter text-[#1f2937]">
-            SUPPLIER <span className="text-[#e66c24]">ATYRAU</span>
+            SUPAT <span className="text-[#e66c24]"></span>
           </div>
           <Link
             href="/"
@@ -269,7 +269,8 @@ export default function AbrasivesPage() {
       </section>
 
       <footer className="max-w-7xl mx-auto px-10 text-center text-gray-400 text-[10px] uppercase tracking-widest py-16">
-        © 2026 Supplier Atyrau • Промышленное сырье ГОСТ / ТУ
+        © 2026 SUPAT – Industrial Supply Company (A brand of Supplier Atyrau
+        LLP) • Промышленное сырье ГОСТ / ТУ
       </footer>
     </main>
   );

@@ -76,7 +76,7 @@ export default function Home() {
             </p>
 
             <div className="mb-12 p-6 bg-white/5 backdrop-blur-md border-l-4 border-[#e66c24] rounded-r-xl inline-block">
-              <h2 className="text-3xl font-bold mb-2">Supplier Atyrau</h2>
+              <h2 className="text-3xl font-bold mb-2">SUPAT</h2>
               <p className="text-gray-300 text-lg">
                 Официальный поставщик оборудования для нефтегазовой отрасли в
                 Казахстане
@@ -420,7 +420,8 @@ export default function Home() {
             г. Атырау, Республика Казахстан
           </p>
           <p className="text-gray-500 text-sm font-bold opacity-60">
-            © 2026 Supplier Atyrau. Все права защищены.
+            © 2026 SUPAT – Industrial Supply Company (A brand of Supplier Atyrau
+            LLP). Все права защищены.
           </p>
         </div>
         <div className="absolute top-0 right-0 w-64 h-64 bg-[#e66c24]/10 blur-[100px] rounded-full translate-x-1/2 -translate-y-1/2"></div>
