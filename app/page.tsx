@@ -123,8 +123,13 @@ export default function Home() {
           <h3 className="text-[#e66c24] text-sm font-black uppercase tracking-[0.3em] mb-4">
             Надежный партнер
           </h3>
+
+          {/* Обновленный заголовок */}
           <h2 className="text-3xl md:text-5xl font-extrabold text-[#1f2937] mb-6 lg:mb-10 leading-tight">
-            TOO Supplier Atyrau
+            SUPAT
+            <span className="block text-xl md:text-2xl font-semibold text-gray-500 mt-2 lg:mt-3">
+              Industrial Supply Company (A brand of Supplier Atyrau LLP)
+            </span>
           </h2>
 
           <ul className="space-y-4 lg:space-y-6 mb-8 lg:mb-12">
@@ -413,7 +418,7 @@ export default function Home() {
       <footer className="w-full bg-gray-900 pt-20 pb-10 text-white overflow-hidden relative">
         <div className="max-w-7xl mx-auto px-6 flex flex-col items-center relative z-10">
           <div className="text-4xl font-black mb-8 tracking-tighter">
-            SUPPLIER <span className="text-[#e66c24]">ATYRAU</span>
+            SUPAT <span className="text-[#e66c24]"></span>
           </div>
           <div className="w-24 h-1 bg-[#e66c24] mb-8"></div>
           <p className="text-gray-400 font-medium mb-2 tracking-wide">

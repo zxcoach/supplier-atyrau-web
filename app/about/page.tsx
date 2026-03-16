@@ -13,7 +13,7 @@ export default function AboutPage() {
             href="/"
             className="font-black text-2xl tracking-tighter text-[#1f2937]"
           >
-            SUPAT <span className="text-[#e66c24]"></span>
+            SUPAT<span className="text-[#e66c24]"></span>
           </Link>
           <Link
             href="/"
@@ -56,10 +56,11 @@ export default function AboutPage() {
               </h2>
               <p className="text-gray-600 leading-relaxed">
                 Представляем Вашему вниманию компанию{" "}
-                <strong>ТОО «SUPAT»</strong>. Мы специализируемся на комплексных
-                поставках абразивного порошка (грита) и профессионального
-                оборудования для антикоррозийной защиты металлоконструкций,
-                резервуаров, а также морских и речных судов.
+                <strong>SUPAT (A brand of Supplier Atyrau LLP)</strong>. Мы
+                специализируемся на комплексных поставках абразивного порошка
+                (грита) и профессионального оборудования для антикоррозийной
+                защиты металлоконструкций, резервуаров, а также морских и речных
+                судов.
               </p>
               <div className="my-10 p-8 bg-gray-50 border-l-8 border-[#e66c24] rounded-r-3xl">
                 <p className="text-gray-800 font-medium italic m-0">
@@ -268,8 +269,8 @@ export default function AboutPage() {
       </section>
 
       <footer className="max-w-7xl mx-auto px-6 text-center text-gray-400 text-xs py-10 border-t border-gray-50">
-        © 2026 ТОО SUPAT – Industrial Supply Company (A brand of Supplier Atyrau
-        LLP). Информация на сайте не является публичной офертой.
+        © 2026 ТОО Supplier Atyrau. Информация на сайте не является публичной
+        офертой.
       </footer>
 
       {/* Специальный стиль для текста-контура (можно вынести в глобальные CSS) */}
